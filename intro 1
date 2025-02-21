@@ -1,1 +1,4 @@
-
+Dont write YAML files, generate them
+Use kubectl create withe the option --dry-run=client -o yaml to generate YAML code.
+To show the YAMML code behind an application that is currently running, yuse kubctl get .. -o yaml.
+Use kubectl apply -f to apply -f the code from the YAML file to the cluster
