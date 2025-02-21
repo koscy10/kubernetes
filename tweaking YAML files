@@ -1,0 +1,3 @@
+Many parameters  can be tweaked through yaml files only and if you want to know a little more about these parameters,
+Use kubectl explain on any resource to discover which parameters
+kubectl explain deploy.spec to see parameter that are available in the specification
